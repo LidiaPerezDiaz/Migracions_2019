@@ -1,0 +1,287 @@
+*{
+font-family: 'Raleway', sans-serif;
+margin:0;
+padding:0;
+}
+header {
+  background-image: url(../img/thumb.png);
+}
+
+#contenedor{
+  display:grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 10vh 70vh;
+  border: 1px solid white;
+}
+
+
+#contenedor .button1{
+  grid-column: 2/3;
+  grid-row:1/2;
+}
+#contenedor .button2{
+  grid-column: 3/4;
+  grid-row:1/2;
+}
+#contenedor .button3{
+  grid-column: 4/5;
+  grid-row:1/2;
+}
+#contenedor .button4{
+  grid-column: 5/6;
+  grid-row:1/2;
+}
+#contenedor .button5{
+  grid-column: 6/7;
+  grid-row:1/2;
+}
+
+#contenedor .video{
+  grid-row: 2/3;
+  grid-column: 2/7;
+  width: 100%;
+  height: 90%;
+}
+
+#contenedor .celda1{
+  grid-column: 2/7 ;
+  grid-row: 2/3 ;
+  text-align: center;
+}
+
+#contenedor .celda1 img{
+  width:70% ;
+  height:70% ;
+  padding: 1%;
+}
+#contenedor .celda1 p{
+  font-style: oblique;
+  padding: 2%
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: : white;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: #b30000;
+  color: white;
+}
+
+.button2 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button2:hover {
+  background-color: #b30000;
+  color: white;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button3:hover {
+  background-color: #b30000;
+  color: white;
+}
+
+.button4 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button4:hover {
+  background-color: #b30000;
+  color: white;
+}
+
+.button5 {
+  background-color: #b30000;
+  color: white;
+  border: 2px solid white;
+}
+
+.button5:hover {
+  background-color: #b30000;
+  color: white;
+}
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+
+}
+#main-header a {
+		color: white;
+	}
+
+#main-header img {
+		float: left;
+    width: 15%;
+    height: 100%;
+}
+
+#logo-header {
+  	float: left;
+  	padding: 15px 0 0 20px;
+  	text-decoration: none;
+  }
+#logo-header:hover {
+  		color: #b30000;
+  	}
+#logo-header .site-name {
+    		display: block;
+    		font-weight: 700;
+    		font-size: 1.2em;
+
+    	}
+#logo-header .site-desc {
+      		display: block;
+      		font-weight: 300;
+      		font-size: 0.8em;
+      		color: #999;
+}
+nav {
+  float: right;
+}
+nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+}
+nav ul li {
+ display: inline-block;
+ line-height: 80px;
+  		}
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #b30000;
+}
+body{
+  background-color:black;
+  color:white;
+  font-size: 20px;
+}
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 27px;
+	margin-top: 3px;
+}
+#main-footer p {
+		margin: 0;
+}
+#main-footer a {
+  	color: white;
+}
+
+/* castellano*/
+#main-footer .es {
+  background-color: black;
+  border-radius: 35%;
+  text-decoration: none;
+  position: absolute;
+  right: 13%;
+  bottom:2%;
+  font-size:100%;
+  color: white;
+}
+
+#main-footer .es:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
+}
+
+#main-footer .es_activa {
+  background-color: #CC1111;
+  border-radius: 35%;
+  text-decoration: none;
+  position: absolute;
+  right: 13%;
+  bottom: 2%;
+  font-size:100%;
+  color: white;
+
+}
+
+ #main-footer .es_activa:hover {
+  background-color: #CC1111;
+  border-radius: 35%;
+  text-decoration: none;
+  position: absolute;
+  right: 13%;
+  bottom: 2%;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
+}
+
+/*catalan */
+#main-footer .ca {
+  background-color: black;
+  border-radius: 35%;
+  text-decoration: none;
+  position: absolute;
+  right: 9%;
+  bottom:2%;
+  font-size:100%;
+  color: white ;
+}
+
+#main-footer .ca:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
+}
+
+#main-footer .ca_activa {
+  background-color: #CC1111;
+  border-radius: 35%;
+  text-decoration: none;
+  position: absolute;
+  right: 9%;
+  bottom:2%;
+  font-size:100%;
+  color: white;
+}
+
+#main-footer .ca_activa:hover {
+  background-color: #CC1111;
+  border-radius: 35%;
+  text-decoration: none;
+  position: absolute;
+  right: 9%;
+  bottom:2%;
+  font-size:100%;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
+}
