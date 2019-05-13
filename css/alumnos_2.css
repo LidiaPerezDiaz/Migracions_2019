@@ -33,14 +33,15 @@ header {
 
   }
 
-  .tercero img{
+#contenedor_alumno .tercero p{ font-size: 80%;}
+
+#contenedor_alumno .tercero img{
   height: 80%;
   width: 80%;
   padding-top: 5%;
-
   }
 
-  .yo img{
+#contenedor_alumno .yo img{
   height: 80%;
   width: 90%;
   padding-top: 5%;
@@ -56,8 +57,11 @@ header {
   border-color: white;
   padding: 2px;
   box-sizing: border-box;
-
   }
+
+#contenedor_alumno .yo p{ font-size: 80%;}
+
+
 
 #contenedor_alumno .button1{
   grid-column: 2/3;
