@@ -10,7 +10,7 @@ header {
 #contenedor{
   display:grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 10vh 70vh;
+  grid-template-rows: 10vh 72vh;
   border: 1px solid white;
 }
 
