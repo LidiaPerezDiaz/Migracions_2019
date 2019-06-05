@@ -1,15 +1,15 @@
 *{
 font-family: 'Raleway', sans-serif;
-}
-header {
-  background-image: url(../img/thumb.png);
+margin:0;
+padding:0;
 }
 
 #contenedor_alumno{
   display:grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 10vh 40vh 20vh 10vh;
+  grid-template-rows: 8vh 40vh 20vh 8vh;
   box-sizing: border-box;
+  border: 1px solid white;
 }
 
 #contenedor_ppal{
@@ -23,7 +23,6 @@ overflow: hidden;
   #contenedor_alumno .alumnos{
   grid-row: 2/5;
   grid-column: 2/7;
-  display: inline-grid;
   border: 0.5px;
   border: solid;
   border-color: white;
@@ -33,13 +32,11 @@ overflow: hidden;
   #contenedor_alumno .tercero{
   grid-row: 2/5;
   grid-column: 4/7;
-  display: inline-grid;
   border: 0.5px;
   border: solid;
   border-color: white;
   padding: 2px;
   box-sizing: border-box;
-
   }
 
 #contenedor_alumno .tercero p{ font-size: 80%;}
@@ -110,9 +107,10 @@ overflow: hidden;
   text-decoration: none;
   text-decoration-color: : white;
   display: inline-block;
-  font-size: 16px;
+  font-size: 22px;
   margin: 4px 2px;
   cursor: pointer;
+  font-weight:bold;
 }
 
 .button1 {
@@ -124,7 +122,6 @@ overflow: hidden;
 .button1:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button2 {
@@ -136,7 +133,6 @@ overflow: hidden;
 .button2:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button3 {
@@ -148,7 +144,6 @@ overflow: hidden;
 .button3:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button4 {
@@ -160,21 +155,18 @@ overflow: hidden;
 .button4:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button5 {
   background-color: #b30000;
   color: white;
   border: 2px solid white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button5:hover {
   background-color: #b30000;
   color: white;
 }
-
 
 #main-header {
 	background: #333;
@@ -185,10 +177,6 @@ overflow: hidden;
 #main-header a {
 		color: white;
 	}
-
-#main-header .ul a:hover {
-    box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
-  }
 
 #main-header img {
 		float: left;
@@ -240,7 +228,7 @@ nav ul li a:hover {
 body{
   background-color:black;
   color:white;
-  font-size: 125%;
+  font-size: 20px;
 }
 #main-footer {
 	background: #333;

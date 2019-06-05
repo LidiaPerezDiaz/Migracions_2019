@@ -86,7 +86,7 @@ nav ul li a:hover {
   display:grid;
   border: 1px solid white;
   grid-template-columns: 1fr 0.25fr 1.5fr 1.5fr 0.25fr 1fr;
-  grid-template-rows:  calc(12vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(12vh - 10px);
+  grid-template-rows:  calc(7vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(11vh - 10px);
   grid-column-gap: 7px;
   grid-row-gap: 7px;
 }

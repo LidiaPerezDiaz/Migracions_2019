@@ -1,9 +1,6 @@
 *{
 font-family: 'Raleway', sans-serif;
 }
-header {
-  background-image: url(../img/thumb.png);
-}
 
 #contenedor_plato{
   display:grid;
