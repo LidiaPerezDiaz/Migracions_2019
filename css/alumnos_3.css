@@ -3,15 +3,21 @@ font-family: 'Raleway', sans-serif;
 margin:0;
 padding:0;
 }
-header {
-  background-image: url(../img/thumb.png);
-}
 
 #contenedor{
   display:grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 10vh 72vh;
+  grid-template-rows: 10vh 67vh;
   border: 1px solid white;
+  box-sizing: border-box;
+}
+
+#contenedor_ppal{
+  width: 90%;
+  max-width: 1200px;
+  min-width: 600px;
+  margin:0 auto;
+  overflow: hidden;
 }
 
 
@@ -62,16 +68,17 @@ header {
   padding: 30px 32px;
   text-align: center;
   text-decoration: none;
-  text-decoration-color: : white;
+  text-decoration-color: white;
   display: inline-block;
-  font-size: 22px;
+  font-size: 100%;
   margin: 4px 2px;
   cursor: pointer;
   font-weight:bold;
+  box-sizing: border-box;
 }
 
 .button1 {
-  background-color: black;
+  background-color: #b30000;
   color: white;
   border: 2px solid white;
 }
@@ -115,7 +122,7 @@ header {
 }
 
 .button5 {
-  background-color: #b30000;
+  background-color: black;
   color: white;
   border: 2px solid white;
 }
@@ -195,27 +202,27 @@ body{
 	margin-top: 3px;
 }
 #main-footer p {
-		margin: 0;
+		margin: auto;
+    color:white;
 }
 #main-footer a {
   	color: white;
+    margin: auto;
+    overflow: hidden;
 }
-
 /* castellano*/
 #main-footer .es {
   background-color: black;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 13%;
-  bottom:2%;
+  right: 20%;
+  bottom: 3.5%;
   font-size:100%;
-  color: white;
+  width: 80%;
 }
 
 #main-footer .es:hover {
   background-color: black;
-  color: white;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
@@ -223,22 +230,17 @@ body{
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 13%;
-  bottom: 2%;
+  right: 20%;
+  bottom: 3.5%;
   font-size:100%;
-  color: white;
-
 }
 
  #main-footer .es_activa:hover {
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 13%;
-  bottom: 2%;
-  color: white;
+  right: 20%;
+  bottom: 3.5%;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
@@ -247,16 +249,13 @@ body{
   background-color: black;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 9%;
-  bottom:2%;
+  right: 15%;
+  bottom:3.5%;
   font-size:100%;
-  color: white ;
 }
 
 #main-footer .ca:hover {
   background-color: black;
-  color: white;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
@@ -264,24 +263,21 @@ body{
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 9%;
-  bottom:2%;
+  right: 15%;
+  bottom:3.5%;
   font-size:100%;
-  color: white;
 }
 
 #main-footer .ca_activa:hover {
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 9%;
-  bottom:2%;
+  right: 15%;
+  bottom:3.5%;
   font-size:100%;
-  color: white;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
+
 #contenedor .ge{
   grid-row: 2/2;
   grid-column: 4/7;
@@ -310,3 +306,24 @@ body{
     padding: 2%;
     text-align: center;
   }
+@media screen and (max-width:1000px){
+  #contenedor_ppal{ width: 80%;}
+  .button{font-size: 80%; padding: 30px 16px;}
+  nav{font-size: 80%;}
+  p{font-size: 80%;}
+  #logo-header .site-name {font-size: 80%;}
+  #logo-header .site-desc {font-size: 80%;}
+  h2{font-size: 80%;}
+}
+
+@media screen and (max-width:900px){
+  #contenedor_ppal{width: 60%;}
+  .button{font-size:60%; padding: 30px 16px;}
+  nav{font-size: 60%;}
+  p{font-size: 80%;}
+  h2{font-size: 60%;}
+  #logo-header .site-name {font-size: 60%;}
+  #logo-header .site-desc {font-size: 60%;}
+  #main-footer p {font-size: 80%;}
+  #main-footer a {font-size: 80%;}
+}

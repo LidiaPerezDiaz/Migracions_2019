@@ -1,20 +1,28 @@
 *{
 font-family: 'Raleway', sans-serif;
-}
-header {
-  background-image: url(../img/thumb.png);
+margin:0;
+padding:0;
 }
 
 #contenedor_alumno{
   display:grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 10vh 40vh 20vh 10vh;
+  grid-template-rows: 8vh 40vh 20vh 8vh;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+#contenedor_ppal{
+width: 90%;
+max-width: 1200px;
+min-width: 600px;
+margin:0 auto;
+overflow: hidden;
 }
 
   #contenedor_alumno .alumnos{
   grid-row: 2/5;
   grid-column: 2/7;
-  display: inline-grid;
   border: 0.5px;
   border: solid;
   border-color: white;
@@ -24,13 +32,11 @@ header {
   #contenedor_alumno .tercero{
   grid-row: 2/5;
   grid-column: 4/7;
-  display: inline-grid;
   border: 0.5px;
   border: solid;
   border-color: white;
   padding: 2px;
   box-sizing: border-box;
-
   }
 
 #contenedor_alumno .tercero p{ font-size: 80%;}
@@ -101,9 +107,10 @@ header {
   text-decoration: none;
   text-decoration-color: : white;
   display: inline-block;
-  font-size: 16px;
+  font-size: 22px;
   margin: 4px 2px;
   cursor: pointer;
+  font-weight:bold;
 }
 
 .button1 {
@@ -115,7 +122,6 @@ header {
 .button1:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button2 {
@@ -127,7 +133,6 @@ header {
 .button2:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button3 {
@@ -139,7 +144,6 @@ header {
 .button3:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button4 {
@@ -151,21 +155,18 @@ header {
 .button4:hover {
   background-color: #b30000;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button5 {
   background-color: #b30000;
   color: white;
   border: 2px solid white;
-  box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
 .button5:hover {
   background-color: #b30000;
   color: white;
 }
-
 
 #main-header {
 	background: #333;
@@ -176,10 +177,6 @@ header {
 #main-header a {
 		color: white;
 	}
-
-#main-header .ul a:hover {
-    box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
-  }
 
 #main-header img {
 		float: left;
@@ -231,7 +228,7 @@ nav ul li a:hover {
 body{
   background-color:black;
   color:white;
-  font-size: 125%;
+  font-size: 20px;
 }
 #main-footer {
 	background: #333;
@@ -241,27 +238,27 @@ body{
 	margin-top: 3px;
 }
 #main-footer p {
-		margin: 0;
+		margin: auto;
+    color:white;
 }
 #main-footer a {
   	color: white;
+    margin: auto;
+    overflow: hidden;
 }
-
 /* castellano*/
 #main-footer .es {
   background-color: black;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 13%;
-  bottom:2%;
+  right: 20%;
+  bottom: 3.5%;
   font-size:100%;
-  color: white;
+  width: 80%;
 }
 
 #main-footer .es:hover {
   background-color: black;
-  color: white;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
@@ -269,22 +266,17 @@ body{
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 13%;
-  bottom: 2%;
+  right: 20%;
+  bottom: 3.5%;
   font-size:100%;
-  color: white;
-
 }
 
  #main-footer .es_activa:hover {
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 13%;
-  bottom: 2%;
-  color: white;
+  right: 20%;
+  bottom: 3.5%;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
@@ -293,16 +285,13 @@ body{
   background-color: black;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 9%;
-  bottom:2%;
+  right: 15%;
+  bottom:3.5%;
   font-size:100%;
-  color: white ;
 }
 
 #main-footer .ca:hover {
   background-color: black;
-  color: white;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
 }
 
@@ -310,21 +299,39 @@ body{
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 9%;
-  bottom:2%;
+  right: 15%;
+  bottom:3.5%;
   font-size:100%;
-  color: white;
 }
 
 #main-footer .ca_activa:hover {
   background-color: #CC1111;
   border-radius: 35%;
   text-decoration: none;
-  position: absolute;
-  right: 9%;
-  bottom:2%;
+  right: 15%;
+  bottom:3.5%;
   font-size:100%;
-  color: white;
   box-shadow: 0 4px 8px 0 rgba(252, 252, 252, 0.37), 0 6px 20px 0 rgba(255, 255, 255, 0.36);
+}
+
+@media screen and (max-width:1000px){
+  #contenedor_ppal{ width: 80%;}
+  .button{font-size: 80%; padding: 30px 16px;}
+  nav{font-size: 80%;}
+  p{font-size: 80%;}
+  #logo-header .site-name {font-size: 80%;}
+  #logo-header .site-desc {font-size: 80%;}
+  h2{font-size: 80%;}
+}
+
+@media screen and (max-width:900px){
+  #contenedor_ppal{width: 60%;}
+  .button{font-size:60%; padding: 30px 16px;}
+  nav{font-size: 60%;}
+  p{font-size: 80%;}
+  h2{font-size: 60%;}
+  #logo-header .site-name {font-size: 60%;}
+  #logo-header .site-desc {font-size: 60%;}
+  #main-footer p {font-size: 80%;}
+  #main-footer a {font-size: 80%;}
 }
