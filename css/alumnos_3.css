@@ -83,7 +83,7 @@ padding:0;
 }
 
 .button1 {
-  background-color: #b30000;
+  background-color: black;
   color: white;
   border: 2px solid white;
 }
@@ -127,7 +127,7 @@ padding:0;
 }
 
 .button5 {
-  background-color: black;
+  background-color: #b30000;
   color: white;
   border: 2px solid white;
 }
