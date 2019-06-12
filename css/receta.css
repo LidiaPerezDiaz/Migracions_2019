@@ -6,8 +6,8 @@ padding:0;
 
 #contenedor{
   display:grid;
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 10vh 67vh;
+  grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr 1fr 0.25fr;
+  grid-template-rows: 10vh 69vh;
   border: 1px solid white;
   box-sizing: border-box;
 }
@@ -26,17 +26,33 @@ padding:0;
   border: 0.5px;
   border: solid;
   border-color: white;
-  padding: 40px;
+  padding: 10%;
+  box-sizing: content-box;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#contenedor .ingredientes ul li{
+  font-size: 100%;
+}
+
+#contenedor .preparacion ol li{
+  font-size: 100%;
 }
 
 #contenedor .preparacion{
   grid-row: 2/3;
   grid-column: 4/7;
-  display: inline-grid;
+  display:inline-grid;
   border: 0.5px;
   border: solid;
   border-color: white;
-  padding: 40px;
+  padding: 4%;
+  box-sizing: content-box;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #contenedor .button1{
@@ -195,10 +211,11 @@ nav ul li a {
 nav ul li a:hover {
   background: #b30000;
 }
+
 body{
   background-color:black;
   color:white;
-  font-size: 125%;
+  font-size: 100%;
 }
 #main-footer {
 	background: #333;
@@ -289,6 +306,8 @@ body{
   .button{font-size: 80%; padding: 30px 16px;}
   nav{font-size: 80%;}
   p{font-size: 80%;}
+  #contenedor .ingredientes ul li{font-size: 80%;}
+  #contenedor .preparacion ol li{font-size: 80%; }
   #logo-header .site-name {font-size: 80%;}
   #logo-header .site-desc {font-size: 80%;}
   h2{font-size: 80%;}
@@ -297,10 +316,12 @@ body{
 
 @media screen and (max-width:900px){
   #contenedor_ppal{width: 60%;}
-  .button{font-size:60%; padding: 30px 16px;}
+  .button{font-size:60%; padding: 30px 16px;margin: 4px 2px;}
   nav{font-size: 60%;}
   p{font-size: 80%;}
   h2{font-size: 60%;}
+  #contenedor .ingredientes ul li{font-size: 60%;}
+  #contenedor .preparacion ol li{font-size: 60%; }
   #logo-header .site-name {font-size: 60%;}
   #logo-header .site-desc {font-size: 60%;}
   #main-footer p {font-size: 80%;}

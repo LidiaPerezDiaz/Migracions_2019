@@ -6,7 +6,7 @@ padding:0;
 
 #contenedor{
   display:grid;
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr 1fr 0.25fr;
   grid-template-rows: 10vh 67vh;
   border: 1px solid white;
   box-sizing: border-box;
@@ -211,7 +211,6 @@ nav ul li a:hover {
 body{
   background-color:black;
   color:white;
-  font-size: 20px;
 }
 #main-footer {
 	background: #333;
